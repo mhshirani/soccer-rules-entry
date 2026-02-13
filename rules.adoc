@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Entry Rules 2025
+= RoboCupJunior Soccer Entry Rules 2026
 {docdate}
 :toc: left
 :sectanchors:
@@ -26,7 +26,7 @@ going to be played at your tournament.
 NOTE: This ruleset is not intended to be used at international level, except for super-regional
 tournaments.
 
-These are the RoboCupJunior Soccer Entry rules for the *1:1 Lightweight League*
+These are the RoboCupJunior Soccer Entry rules for the *1:1 Infrared League*
 and *1:1 Standard Kit League*
 proposed for suggested use by regional and super-regional tournaments in the 
 2025 season. They are released by the RoboCupJunior League Committee. 
@@ -41,7 +41,7 @@ Representative regarding updates and changes to this ruleset specific to their
 location. Each team is responsible for verifying the correct and latest version
 of the rules prior to competition.
 
-[title="Two teams with one LWL robot each will compete using an IR ball on RCJ Soccer fields without the out-area. There is no need for using camera vision or line detection. Photo: Andreas Lander"]
+[title="Two teams with one infrared robot (used to be Lightweight) each will compete using an IR ball on RCJ Soccer fields without the out-area. There is no need for using camera vision or line detection. Photo: Andreas Lander"]
 image::media/smallfield_andreas_lander.jpg[]
 
 [discrete]
@@ -59,7 +59,7 @@ participants and by engaging in good sportsmanship, regardless of culture, age
 or result in the competition. *All are expected to compete, learn, have fun, and grow.*
 
 RoboCupJunior Soccer Entry rules are supplied for two entry-level. 
-*1:1 Lightweight League* leagues modelled after LWL but reduced to one robot
+*1:1 Infrared League* leagues modelled after IR league but reduced to one robot
 and restricted to at most three driving motors and *1:1 Standard Kit League*
 further restricted to two driving motors and restricted to a list of similarly
 powered motors (see <<motor-whitelist>>).
@@ -74,10 +74,9 @@ compared to those are:
 reduces the complexity of robot construction and gameplay. Use of many existing
 fields is possible with no or minor modifications due to flexible dimensions.
 * Each team starts *only one robot*
-* *The Ball* the league uses the same special ball that emits an IR signal that
-Lightweight League uses. Please see <<ball>> for balls specifications.
+* *The Ball* the league uses the old version of junior soccer Lightweight league (now called IR league). Bear in mind that the current IR League ball is not being used for the entry leagues.  Please see <<ball>> for balls specifications.
 * Restrictions on the number of drive motors apply (max. 2 drive motors for *1:1 
-Standard Kit League*, max. 3 drive motors for *1:1 Lightweight League*)
+Standard Kit League*, max. 3 drive motors for *1:1 Infrared League*)
 * In most regions participation in each 1:1 League is limited to two years (see <<competition-cap>>)
 * {++Furthermore, robots that have been constructed for any of the 2:2 RobocupJunior Soccer leagues
 at any level (local, regional, super-regional, international) in past, future, or present
@@ -94,14 +93,15 @@ and keep existing Lego and Fischertechnik robots competitive:
 * Only a list of allowable motors (see <<motor-whitelist>>) with
 comparable power to Lego and Fischertechnik motors is permitted
 
-=== 1:1 Lightweight League
+=== 1:1 Infrared League
 * Number of drive motors is restricted to three
-* The voltage limit remains at 12V (unlike 2:2 LWL where it is increased)
-* {++The weight limit for 1:1 Lightweight League has been increased to match the 2:2 LWL level of 1400g++}
+* The voltage limit remains at 12V (unlike 2:2 IR League where it is increased)
+* {++The weight limit for 1:1 Infrared League (used to be Lightweight) has been increased to match the 2:2 IR league level of 1400g++}
+* {++There is no limitation on the motors being used in this league++}
 
 
 [discrete]
-=== Changes from the 2024 RoboCupJunior Soccer Entry Rules
+=== Changes from the 2025 RoboCupJunior Soccer Entry Rules
 
 {+-~TOC-CHANGES~-+}
 
@@ -110,8 +110,8 @@ comparable power to Lego and Fischertechnik motors is permitted
 
 Team members can participate only twice in each league played according to one of these
 RoboCupJunior Soccer Entry rulesets. After their second participation, they need to
-move on from *1:1 Standard Kit League* to *1:1 Lightweight League* and from 
-*1:1 Lightweight League* to one of the 2:2 Leagues respectively.
+move on from *1:1 Standard Kit League* to *1:1 Infrared League* and from 
+*1:1 Infrared League* to one of the 2:2 Leagues respectively.
 footnote:[Some regions will have other entry leagues that may be exempt from this rule.
 Please refer to your local tournament organizers in order to find out in which leagues
 you may compete.]
@@ -664,7 +664,7 @@ Robots will be measured in an upright position with all parts extended. A
 robot’s dimensions must not exceed the following limits:
 
 |===
-sub-league | *1:1* *Standard* *Kit* *League* | *1:1* *Lightweight* *League* +
+sub-league | *1:1* *Standard* *Kit* *League* | *1:1* *Infrared* *League* +
 |size | 22.4 cm (square) ^[0]^ | 22.0 cm (circle) ^[1]^ +
 |height | 22.4 cm ^[2]^ | 22.0 cm ^[2]^ +
 |weight | 1400 g | 1400 g ^[3]^ +
@@ -741,7 +741,7 @@ mechanisms.
 A weight limit of 1400g is introduced to prevent heavy custom robots from
 overpowering Lego and Fischertechnik robots.
 
-==== 1:1 Lightweight League
+==== 1:1 Infrared League
 Voltage pump circuits are permitted only for a kicker drive. No voltage may
 exceed 48V at any time and maximum boost voltage must be available for 
 demonstration and measurement at inspections. When not in use measurement
@@ -753,7 +753,7 @@ the voltage of power packs and its circuits, unless the nominal voltage is
 obvious by looking at the robot, its power packs and connections.
 
 The voltage limit remains 12V nominal and 48V maximum at the kicker despite
-changes in 2:2 Lightweight.
+changes in 2:2 Infrared.
 
 A maximum of three drive motors is allowed
 
